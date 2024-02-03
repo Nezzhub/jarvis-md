@@ -13,7 +13,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined ? "./database.db" : 
 
 module.exports = {
   AUDIO_DATA: process.env.AUDIO_DATA || 'ʟᴏᴋɪ-xᴇʀ;ᴊᴀʀᴠɪꜱ;https://i.imgur.com/ep3UbBP.jpg',
-  WARN_COUNT: process.env.WARN_COUNT || '3',
+  WARN_COUNT: process.env.WARN_COUNT || '2',
   LOGS: toBool(process.env.LOGS) || true,
   KOYEB_API: process.env.KOYEB_API || '',
   SERVERURL: process.env.SERVERURL || '',
